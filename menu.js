@@ -1,4 +1,3 @@
-
 let menuItems = [
   {Text: 'Home', url: '/'},
   {Text: 'About', url: '/about.html'},
