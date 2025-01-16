@@ -1,125 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>uts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsif Web</title>
     <style>
-        * {
+        *{
             box-sizing: border-box;
         }
-
-        .container {
+        .container{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
+            grid-template-columns: repeat(3,1fr);
+            gap: 15px;
             width: 90%;
-            margin: 100px auto;
+            margin: 90px auto;  
         }
-
-        [class*='box'] {
-            box-shadow: 0 0 17px 13px rgba(0, 0, 0, 0.1);
+        [class*='box']{
+            box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.1);
             padding: 10px;
             border-radius: 5px;
         }
-
-        .media {
-            box-shadow: 0 0 17px 13px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            height: 80px;
+        .media{
+            box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            height: 75px;
             width: 100px;
             float: right;
+            margin: 10px;
             background-position: center;
             background-size: cover;
         }
-         ul{
+        .box-1{
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        .box-1 > .media{
+            width: 100%;
+            height: 250px;
+            margin-bottom: 20px;
+            background-image: url(lp3i.jpg);
+            border-radius: 0;
+            margin-top: 0;
+            margin-right: 0;
+        }
+        ul{
             list-style: none;
             display: flex;
             box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.1);
             position: fixed;
             top: 0;
             width: 100%;
-            background-color: white;
             padding: 15px;
             margin-top: 0;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px); 
         }
         li{
             padding: 10px;
         }
         body{
             margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial, sans-serif;
             font-size: 14px;
-
-        .box-1 {
-            grid-row-start: 1;
-            grid-row-end: 4;
-        }
-
-        .box-1>.media {
+            color:black;
+            min-height: 100vh;
             width: 100%;
-            height: 200px;
-            background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6y1K0bKmRWcYCMVhYKEOcWp3jn78iFYihpOjyv3M4yyP7wCER);
+            height: 90%;
         }
-        .bok-2>.media{
-            background-image: url(c:\Users\user\Downloads\boots.png);
+        .box-1 > p .box-1 > h2{
+            padding-left: 10px;
         }
-        
-        @media screen {
-            
+        .box-2 .media{
+            background-image: url(HTML.jpg);
+        }
+        .box-3 .media{
+            background-image: url(CSS.png);
+        }
+        .box-4 .media{
+            background-image: url(RESPONSIF.jpg);
+        }
+        .box-5 .media{
+            background-image: url(js.jpg);
+        }
+        .box-6 .media{
+            background-image: url(JS.jpg);
+        }
+        .box-7 .media{
+            background-image: url(https://static.vecteezy.com/system/resources/previews/025/270/403/non_2x/github-logo-icon-free-vector.jpg);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        p{
+            color: grey;
+        }
+        @media only screen and (max-width: 768px){
+            .container, ul{
+                display: block;
+            }
         }
     </style>
 </head>
-
 <body>
-    <div class="Navbar">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="courses.html">Course</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Portofolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="team.html">team.</a></li>
-      </ul>
-    </div>
-        <div class="container">
-            <div class="box-1">
-                <div class="media"></div>
-                <h2>title</h2>
-                <p>content</p>
-            </div>
-            <div class="box-2">
-                <div class="media"></div>
-                <h2>title</h2>
-                <p>content</p>
-            </div>
-            <div class="box-3">
-                <div class="media"></div>
-                <h2>title</h2>
-                <p>content</p>
-            </div>
-            <div class="box-4">
-                <div class="media"></div>
-                <h2>title</h2>
-                <p>content</p>
-            </div>
-            <div class="box-5">
-                <div class="media"></div>
-                <h2>title</h2>
-                <p>content</p>
-            </div>
-            <div class="box-6">
-                <div class="media"></div>
-                <h2>title</h2>
-                <p>content</p>
-            </div>
-            <div class="box-7">
-                <div class="media"></div>
-                <h2>title</h2>
-                <p>content</p>
-            </div>
-        </div>
+    <div class="container">
+        <div class="box-1">
+            <div class="media"></div>
+            <h3>LP3I Banten</h3>
+            <p>Pendidikan Vokasi adalah Usaha dalam memfasilitasi, membina, membimbing, memotivasi serta melatih peserta didik dengan Pendidikan Keterampilan.
+                 agar memiliki keahlian di bidang tertentu dan membentuk sikap individu yang sesuai dengan kebutuhan masyarakat dan dunia Industri dan dunia kerja (diduka).</p>
 
-        <body>
-        </body>
+            </div>
+        <div class="box-2">
+            <div class="media"></div>
+            <h3>Pengenalan dan Struktur Dasar HTML</h3>
+            <p>HTML adalah singkatan dari Hypertext Markup Language,
+                 HTML merupakan salah satu bahasa pengkodean atau pemograman yang digunakan untuk membuat halaman website ...</p>
+            <p>3 Bulan yang lalu</p>
+        </div>
+        <div class="box-3">
+            <div class="media"></div>
+            <h3>Pengenalan Style dan Penulisan CSS</h3>
+            <p>CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, 
+                seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.</p>
+            <p>2 Bulan yang lalu</p>
+        </div>
+        <div class="box-4">
+            <div class="media"></div>
+            <h3>Layout Responsif</h3>
+            <p>f (bahasa Inggris: responsive web design (RWD)) adalah sebuah metode atau pendekatan sistem web desain yang bertujuan memberikan pengalaman 
+                berselancar yang optimal dalam berbagai perangkat, baik mobile maupun komputer meja.</p>
+            <p>2 Bulan yang lalu</p>
+        </div>
+        <div class="box-5">
+            <div class="media"></div>
+            <h3>Pengenalan Javascript</h3>
+            <p>Belajar Dasar-dasar Javascript, Browser Object Model, 
+               Document Object Model, Event, Latihan Event & DOM</p>
+            <p>3 Minggu yang lalu</p>
+        </div>
+        <div class="box-6">
+            <div class="media"></div>
+            <h3>AJAX</h3>
+            <p>Belajar Pengenalan AJAX, Request, Fecth API</p>
+            <p>2 Minggu yang lalu</p>
+        </div>
+        <div class="box-7">
+            <div class="media"></div>
+            <h3>Publish</h3>
+            <p>DNS Server, Instalasi Domain ID, Menggunakan Hosting GitHub Page</p>
+            <p>3 Minggu yang lalu</p>
+        </div>
+    </div> 
+</body>
+<script src="menu.js"></script>
+</html>
