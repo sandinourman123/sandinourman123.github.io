@@ -1,10 +1,10 @@
 let menuItems = [
   {Text: 'Home', url: '/'},
   {Text: 'About', url: '/about.html'},
-  {Text: 'Teams', url: '/teams.html'},
+  {Text: 'Team', url: '/team.html'},
   {Text: 'Blog', url: '/blog.html'},
   {Text: 'Course', url: '/course.html'},
-  {Text: 'Portfolio', url: '/portfolio.html'},
+  {Text: 'Portofolio', url: '/portfolio.html'},
 ]
 let menu = document.createElement('ul');
 menuItems.forEach(item => {
