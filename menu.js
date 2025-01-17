@@ -4,7 +4,7 @@ let menuItems = [
   {Text: 'Team', url: '/team.html'},
   {Text: 'Blog', url: '/blog.html'},
   {Text: 'Course', url: '/course.html'},
-  {Text: 'Portofolio', url: '/portfolio.html'},
+  {Text: 'Portofolio', url: '/portofolio.html'},
 ]
 let menu = document.createElement('ul');
 menuItems.forEach(item => {
