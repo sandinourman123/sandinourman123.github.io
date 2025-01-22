@@ -21,7 +21,7 @@ const teams = [
     {
         "name": "Achmad Maulana Ichsan",
         "email": "ichsanachmadmaulana@gmail.com",
-        "image": "https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/7876772858106/Trip%2520Pendakian%2520Gunung%2520Sindoro%2520via%2520kledung%2520By%2520Barameru%2520Adventure%2520Indonesia-2af530b8-eac0-414f-8046-df9eaa57fa13.jpeg?tr=q-60,c-at_max,w-1280,h-720&_src=imagekit",
+        "image": "https://asset.kompas.com/crops/NvhLn5n01teotL0z7S68WC0DpCk=/0x0:780x520/1200x800/data/photo/2021/09/25/614f38394b5af.jpg",
         "link" : [
             {
                 "name" : "instagram",
@@ -44,7 +44,7 @@ const teams = [
     {
         "name": "Naufal Laudza",
         "email": "naufallaudza194@gmail.com",
-        "image": "/WhatsApp Image 2025-01-08 at 09.58.32.jpeg",
+        "image": "https://asset.kompas.com/crops/NvhLn5n01teotL0z7S68WC0DpCk=/0x0:780x520/1200x800/data/photo/2021/09/25/614f38394b5af.jpg",
         "link" : [
             {
                 "name" : "instagram",
@@ -59,7 +59,7 @@ const teams = [
     {
         "name": "Rozak Al Baidawi",
         "email": "rozakalbaidawi@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://asset.kompas.com/crops/NvhLn5n01teotL0z7S68WC0DpCk=/0x0:780x520/1200x800/data/photo/2021/09/25/614f38394b5af.jpg",
         "link" : [
             {
                 "name" : "instagram",
@@ -74,7 +74,7 @@ const teams = [
     {
         "name": "Fredo pradana",
         "email": "fredopradana72@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://asset.kompas.com/crops/NvhLn5n01teotL0z7S68WC0DpCk=/0x0:780x520/1200x800/data/photo/2021/09/25/614f38394b5af.jpg",
         "link" : [
             {
                 "name" : "instagram",
@@ -89,7 +89,7 @@ const teams = [
     {
         "name": "Hanif Dwi Novario",
         "email": "hanifdn05@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://asset.kompas.com/crops/NvhLn5n01teotL0z7S68WC0DpCk=/0x0:780x520/1200x800/data/photo/2021/09/25/614f38394b5af.jpg",
         "link" : [
             {
                 "name" : "instagram",
@@ -104,7 +104,7 @@ const teams = [
     {
         "name": "Muhammad Fikri Firdaus",
         "email": "mfikrif06@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image":"https://asset.kompas.com/crops/NvhLn5n01teotL0z7S68WC0DpCk=/0x0:780x520/1200x800/data/photo/2021/09/25/614f38394b5af.jpg",
         "link" : [
             {
                 "name" : "instagram",
@@ -119,7 +119,7 @@ const teams = [
     {
         "name": "Muhammad Sandi Nourman",
         "email": "sandinourman@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://asset.kompas.com/crops/NvhLn5n01teotL0z7S68WC0DpCk=/0x0:780x520/1200x800/data/photo/2021/09/25/614f38394b5af.jpg",
         "link" : [
             {
                 "name" : "instagram",
@@ -134,7 +134,7 @@ const teams = [
     {
         "name": "Marcella Setyaning Putri",
         "email": "msetyaningputri@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://png.pngtree.com/recommend-works/png-clipart/20240512/ourmid/pngtree-black-suit-and-womens-hijab-png-image_12437224.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -149,7 +149,7 @@ const teams = [
     {
         "name": "Rheina Wardiana Hafiroh",
         "email": "rheinawardiana317@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://png.pngtree.com/recommend-works/png-clipart/20240512/ourmid/pngtree-black-suit-and-womens-hijab-png-image_12437224.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -163,7 +163,7 @@ const teams = [
     },
     {
         "name": "Siti Aisyah",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://png.pngtree.com/recommend-works/png-clipart/20240512/ourmid/pngtree-black-suit-and-womens-hijab-png-image_12437224.png",
         "link" : [
             {
                 "name" : "instagram",
@@ -178,7 +178,7 @@ const teams = [
     {
         "name": "Muhammad Rivanda Ramdhani",
         "email": "ramdhanirivanda@gmail.com",
-        "image": "https://fastly.picsum.photos/id/288/200/300.jpg?hmac=45WLionXnoogi0-njKuSNnVY5hnswMhf-CrxwzKTcrc",
+        "image": "https://asset.kompas.com/crops/NvhLn5n01teotL0z7S68WC0DpCk=/0x0:780x520/1200x800/data/photo/2021/09/25/614f38394b5af.jpg",
         "link" : [
             {
                 "name" : "instagram",
@@ -190,4 +190,19 @@ const teams = [
             }
         ]
     },
+    {
+   "name": "Abdulrahman Arafah Sunarto",
+        "email" : "fahganindo12@gmail.com",
+        "image": "https://asset.kompas.com/crops/NvhLn5n01teotL0z7S68WC0DpCk=/0x0:780x520/1200x800/data/photo/2021/09/25/614f38394b5af.jpg",
+        "link" : [
+            {
+                "name" : "instagram",
+                "link" : "https://www.instagram.com/arafah.abdulrahman_"
+            },
+            {
+                "name" : "globe",
+                "link" : "https://fahganindo4life.my.id/"
+            }
+        ]
+        }
 ]
